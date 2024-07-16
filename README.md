@@ -1,12 +1,6 @@
-### ⚙️ 手动部署
+# 部署
 
-- **安装** [node.js](https://nodejs.org/zh-cn/) **环境**
-
-  > node > 16.16.0  
-  > npm > 8.15.0
-
-- 然后以 **管理员权限** 运行 `cmd` 终端，并 `cd` 到 项目根目录
-- 在 `终端` 中输入：
+使用pnpm进行部署
 
 ```bash
 # 安装 pnpm
@@ -23,17 +17,6 @@ pnpm build
 ```
 
 > 构建完成后，静态资源会在 **`dist` 目录** 中生成，可将 **`dist` 文件夹下的文件**上传至服务器，也可使用 `Vercel` 等托管平台一键导入并自动部署
-
-### ⚙️ Docker 部署
-
-> 安装及配置 Docker 将不在此处说明，请自行解决
-
-```bash
-# 构建
-docker build -t home .
-# 运行
-docker run -p 12445:12445 -d home
-```
 
 ### ⚙️ Vercel 部署
 

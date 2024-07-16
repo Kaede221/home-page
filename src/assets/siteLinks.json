@@ -8,15 +8,5 @@
     "icon": "Link",
     "name": "反代站",
     "link": "https://proxy.fumoe.top/"
-  },
-  {
-    "icon": "Compass",
-    "name": "FuMOE社区",
-    "link": "https://hi.fumoe.top/"
-  },
-  {
-    "icon": "ListAlt",
-    "name": "萌萌计数器",
-    "link": "https://count.fumoe.top/"
   }
 ]
