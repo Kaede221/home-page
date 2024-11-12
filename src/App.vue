@@ -1,4 +1,6 @@
 <template>
+  <!-- 添加meta 让浏览器能够搜索 -->
+  <meta name="msvalidate.01" content="237FD1DBDCA1BD4A7E5A2CBC4BDF6A54" />
   <!-- 加载 -->
   <Loading />
   <!-- 壁纸 -->
